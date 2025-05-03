@@ -1,0 +1,32 @@
+Core Concepts
+	Topics: Streams of related messages organized into categories
+	Partitions: Subdivisions of topics that enable parallelism
+	Producers: Applications that publish messages to topics
+	Consumers: Applications that subscribe to topics and process messages
+	Brokers: Kafka servers that store messages and serve clients
+	Consumer Groups: Groups of consumers that coordinate to process messages from topics
+Key Java Classes and Interfaces
+	Producer API
+		KafkaProducer: Main class for sending messages to Kafka
+		ProducerRecord: Represents a message to be sent to Kafka
+		Callback: Interface for handling asynchronous send results
+	Consumer API
+		KafkaConsumer: Main class for receiving messages from Kafka
+		ConsumerRecord: Represents a message received from Kafka
+		ConsumerRebalanceListener: Interface for partition assignment events
+	Admin API Classes
+		AdminClient: Primary interface for administrative operations
+		NewTopic: Specification for creating a new topic
+		NewPartitions: Specification for adding partitions
+		AlterConfigsOptions: Options for altering configurations
+		DescribeTopicsOptions: Options for describing topics
+		ListTopicsOptions: Options for listing topics
+		DeleteTopicsOptions: Options for deleting topics
+	Serialization
+		Serde: Combines serializer and deserializer
+		Serdes: Factory for common Serde instances
+		ByteArraySerializer/ByteArrayDeserializer: For raw byte arrays
+		StringSerializer/StringDeserializer: For string data
+		IntegerSerializer/IntegerDeserializer: For integer data
+		LongSerializer/LongDeserializer: For long integer data
+		DoubleSerializer/DoubleDeserializer: For double-precision values
