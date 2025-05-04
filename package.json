@@ -1,0 +1,15 @@
+{
+  "name": "kafka-nodets",
+  "version": "1.0.0",
+  "description": "A NodeTS version of apache kafka made by me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SourashisB",
+  "license": "ISC",
+  "dependencies": {
+    "Buffer": "^0.0.0",
+    "events": "^3.3.0"
+  }
+}

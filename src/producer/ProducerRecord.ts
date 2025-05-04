@@ -1,4 +1,4 @@
-const {Buffer} = require('node:buffer');
+import {Buffer} from 'buffer';
 export class ProducerRecord<K, V> {
     constructor(
       /**
