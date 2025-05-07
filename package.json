@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "Buffer": "^0.0.0",
-    "events": "^3.3.0"
+    "events": "^3.3.0",
+    "net": "^1.0.2",
+    "tls": "^0.0.1"
   }
 }
