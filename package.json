@@ -9,6 +9,7 @@
   "author": "SourashisB",
   "license": "ISC",
   "dependencies": {
+    "@types/node": "^22.15.16",
     "Buffer": "^0.0.0",
     "events": "^3.3.0",
     "net": "^1.0.2",
