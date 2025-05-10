@@ -31,8 +31,6 @@ Done:
 		IntegerSerializer/IntegerDeserializer: For integer data
 		LongSerializer/LongDeserializer: For long integer data
 		DoubleSerializer/DoubleDeserializer: For double-precision values
-
-TBC:
 	Connection Management
 		BrokerConnection: Class for managing TCP connections to individual Kafka brokers
 		ClusterMetadata: Class for tracking topic/partition to broker mappings
@@ -44,6 +42,9 @@ TBC:
 	Error Handling
 		KafkaError hierarchy: Specialized error classes for different Kafka error scenarios
 		RetryPolicy: Interface for handling retries on transient failures
+
+TBC:
+
 	
 	Partitioning
 		Partitioner interface: Determines how records are assigned to partitions
